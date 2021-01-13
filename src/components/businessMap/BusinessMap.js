@@ -40,7 +40,6 @@ const BusinessMap = () => {
         try {
             const results = await getStoresInBogota("stores")
             const locations = results.results
-            console.log(results)
             for(let location of locations) {        
                 setMarkers(current => [...current, {
                     lat:location.geometry.location.lat,

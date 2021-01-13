@@ -162,7 +162,7 @@ const AboutTreinta = () => {
                                 You will be able to enjoy important benefits, see your business grow and prosper, access government aid, training and even work hand in hand with other companies. 
                             </CardText>
                             <CardText className="text-justify">
-                                <a href="https://play.google.com/store/apps/details?id=com.treintaapp" target="_blank">What are you waiting for?</a>
+                                <a href="https://www.treinta.co/formaliza-tu-negocio/" target="_blank">What are you waiting for?</a>
                             </CardText>
                         </CardBody>
                     </Card>

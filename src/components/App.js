@@ -5,11 +5,11 @@ import Signup from './login/Signup'
 import Login from './login/Login';
 import ForgotPassword from './login/ForgotPassword';
 import PrivateRoute from './routes/PrivateRoute';
-import Dashboard from './dashboard/Dashboard';
+import Dashboard from './dashboard';
 import Profile from './profile';
 import AboutTreinta from './infoTreinta';
 import BusinessMap from './businessMap';
-import Page404 from './pages/Page404';
+import Page404 from './pages';
 
 function App() {
   return (

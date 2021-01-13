@@ -1,0 +1,1 @@
+export const GET_STORES_PLACES_API = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query='

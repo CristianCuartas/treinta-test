@@ -9,7 +9,6 @@ import Dashboard from './dashboard';
 import Profile from './profile';
 import AboutTreinta from './infoTreinta';
 import BusinessMap from './businessMap';
-import test from './businessMap/test'
 import Page404 from './pages';
 
 function App() {

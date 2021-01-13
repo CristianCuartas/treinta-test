@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Treinta Test - React Native DEVELOPER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Enlace al sitio con la prueba [aquí](https://treinta-test-cristiancuartas.web.app/login)
 
-## Available Scripts
+Aplicación desarrollada en React JS.
 
-In the project directory, you can run:
+## Tecnologías usadas para la realización del test
 
-### `npm start`
+En base a los requerimientos de la prueba:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### `Diseño del aplicativo`
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Utilicé la herramienta Balsamiq Wireframes, para realizar el mockup y tener el diseño base para el posterior desarrollo de las vistas.
+Enlace al sitio web de la herramienta [aquí](https://balsamiq.com/)
 
-### `npm test`
+En el desarrollo de las interfaces utilicé [bootstrap](https://getbootstrap.com/) y los componentes de [reactstrap](https://reactstrap.github.io/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Autenticación - Login & Registro`
 
-### `npm run build`
+Utilicé el servicio de autenticación de [Firebase](https://firebase.google.com/products/auth?hl=es-419&gclid=Cj0KCQiA0fr_BRDaARIsAABw4EvZ2tuLW6VbsZL9CZOFRhcdshDylZ3Oqk_DwuyoHTgSKqib6sTqYf8aAkRxEALw_wcB) únicamente habilitando el inicio de sesión por Email/Password.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `APIs`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para realizar el ejercicio del mapa Utilicé el API de 'Maps JavScript API' y 'Places API'.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Los componentes de la vista del mapa vienen de la libreria [@google-maps-react/api](https://www.npmjs.com/package/@react-google-maps/api)
 
-### `npm run eject`
+### `Despliegue`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Utilicé el servicio de hosting de [Firebase](https://firebase.google.com/products/hosting?gclid=Cj0KCQiA0fr_BRDaARIsAABw4Ev6YYi18IB-SV9lyg9l3cuYSOSiGV1hyTB2TNQyAoImA0FKbL6LPJgaAsDbEALw_wcB) para hacer el despliegue del test realizado.

@@ -1,6 +1,6 @@
 # Treinta Test - React Native DEVELOPER
 
-Enlace al sitio con la prueba [aquí](https://treinta-test-cristiancuartas.web.app/login)
+Enlace al sitio web con la prueba [aquí](https://treinta-test-cristiancuartas.web.app/login)
 
 Aplicación desarrollada en React JS.
 

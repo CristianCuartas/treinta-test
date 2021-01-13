@@ -1,9 +1,9 @@
-import React, {useEffect, useState, useCallback} from 'react'
+import React, {useEffect, useState, useCallback, useRef} from 'react'
 import {
     GoogleMap,
     useLoadScript,
     Marker,
-    InfoWindow
+    InfoWindow,
 } from '@react-google-maps/api'
 import '@reach/combobox/styles.css';
 import "./../../assets/css/businessMap.css";
@@ -35,6 +35,7 @@ const BusinessMap = () => {
         googleMapsApiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
         libraries,
     });
+    
 
     const onMapLoad = useCallback(map => {
         if(Object.keys(map).length !== 0){
@@ -70,8 +71,8 @@ const BusinessMap = () => {
         }
     }
 
-    useEffect(() => {
-    }, [isLoaded])
+    useEffect(() => {     
+    }, [isLoaded]);
 
     if(loadError) return "Error loading maps"
     if(!isLoaded) return "Loading maps"
@@ -89,6 +90,7 @@ const BusinessMap = () => {
                         zoom={15} 
                         center={center}
                         options={options}
+                        onTilesLoaded
                     >
                         {markers.length > 0 ? 
                             markers.map(marker => 
@@ -117,7 +119,7 @@ const BusinessMap = () => {
                             >
                                 <div>
                                     <h3>{selected.name}</h3>
-                                    <p><b>Address:</b>{selected.formatted_address}</p>
+                                    <p><b>ADDRESS:</b>{selected.formatted_address}</p>
                                 </div>
                             </InfoWindow>
                             ) 
@@ -130,3 +132,4 @@ const BusinessMap = () => {
     )
 }
 export default BusinessMap
+

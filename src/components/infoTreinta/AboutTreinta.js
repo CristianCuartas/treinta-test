@@ -235,12 +235,13 @@ const AboutTreinta = () => {
                 </div>                
         </div>
         <br/>
+        <div className="container d-flex justify-content-center">
         <div className="row">
           <div className="col-md-12" >
-              <h4 className="d-flex justify-content-center">Discover the advantages of using Treinta</h4>
+              <h4 className="text-center">Discover the advantages of using Treinta</h4>
               <hr/>
           </div>
-          <div className="col-md-12 d-flex justify-content-center">
+          <div className="col-xs-12">
             {advantages.map((popover, i) => {
                 return (
                   <>
@@ -250,6 +251,7 @@ const AboutTreinta = () => {
               })}
           </div>
       </div>
+        </div>        
       </div>        
     </>
     )

@@ -1,22 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "./../../assets/css/dashboard.css"
 import NavbarComponent from './navbar'
 import navIconInfo from "./../../assets/img/navIconInfo.png"
 import navIconSettings from "./../../assets/img/navIconSettings.png"
 import navIconMap from "./../../assets/img/navIconMap.png"
+import {useAuth} from "./../../contexts/AuthContext"
 
 const Dashboard = () => {
+    const {currentUser} = useAuth();
     return (
         <>
         <NavbarComponent/>
         <br/>
-        <div className="container-dashboard">
+        <div className="container">
             <div className="row">
                 <div className="col-md-12" >
-                    <div className="type">
-                        Welcome to the presentation of the test
-                    </div>
+                    <h5 className="text-center">
+                    Welcome to the presentation of the test {currentUser.email}
+                    </h5>                        
                 </div>                
             </div>        
         </div> 
